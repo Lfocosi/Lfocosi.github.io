@@ -4,68 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucca focosi</title>
-    <style>
-        body
-        {
-            background-color: rgb(245, 245, 245);
-            display: flex;
-            margin: 0;
-            color: rgb(0, 0, 20);
-        }
-        img
-        {
-            width: 20vw;
-            height: 20vw;
-            border-radius: 100%;
-            object-fit: cover;
-        }
-        .titulo
-        {
-            font-weight: bold;
-            margin-bottom: 1vh;
-        }
-        .box
-        {
-            margin-top: 10vh;
-        }
-        #esquerda
-        {
-            background-color: lightblue;
-            display: flex;
-            position: fixed;
-            width: 30%;
-            height: 100%;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-        }
-        #direita
-        {
-            margin-right: 1vw;
-            font-size: large;
-            display: flex;
-            margin-left: 35%;
-            flex-direction: column;
-            justify-content: space-around;
-        }
-        #contato
-        {
-            font-size: 2vw;    
-        }
-        #Nome_perfil
-        {
-            font-size: 4vw;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="esquerda">
-        <div id="perfil">
+        <div id="perfil" class="box-cell">
             <img src="WhatsApp Image 2024-01-17 at 13.54.07.jpeg" alt="foto">
             <div id="Nome_perfil">Lucca Focosi</div>
             <div id="Titulos_Perfil">SOFTWARE DEVELOPER, GAME DEV</div>
         </div>
-        <div id="contato">
+        <div id="contato" class="box-cell">
             <div id="Titulo_contato" class="titulo">CONTACT</div>
             <div id="Cell">(11) 95655-5525</div>
             <div id="Email">luccafocosi@gmail.com</div>

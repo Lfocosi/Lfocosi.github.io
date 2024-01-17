@@ -1,0 +1,111 @@
+body
+{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    margin: 0;
+    color: rgb(0, 0, 20);
+}
+img
+{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.titulo
+{
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+.box
+{
+    margin-top: 10vh;
+}
+#esquerda
+{
+    background-color: lightblue;
+    display: flex;
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#direita
+{
+    margin-right: 1vw;
+    font-size: large;
+    display: flex;
+    margin-left: 35%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#contato
+{
+    font-size: 2vw;    
+}
+#Nome_perfil
+{
+    font-size: 4vw;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    body
+    {
+        background-color: rgb(245, 245, 245);
+        display: block;
+        margin: 0;
+        color: rgb(0, 0, 20);
+    }
+    img
+    {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .titulo
+    {
+        font-weight: bold;
+        margin-bottom: 1vh;
+    }
+    .box
+    {
+        margin-top: 10vh;
+    }
+    .box-cell
+    {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    #esquerda
+    {
+        background-color: lightblue;
+        display: flex;
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #direita
+    {
+        margin-right: 1vw;
+        font-size: large;
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #contato
+    {
+        font-size: unset;    
+    }
+    #Nome_perfil
+    {
+        font-size: x-large;
+    }
+}
